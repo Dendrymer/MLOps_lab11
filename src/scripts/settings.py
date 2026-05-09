@@ -6,7 +6,7 @@ class Settings(BaseSettings):
 
     hf_model_id: str = "MoritzLaurer/deberta-v3-base-zeroshot-v2.0"
 
-    local_model_dir: str = "model/zeroshot"
+    local_model_dir: str = "../../model/zeroshot"
     onnx_dir: str = "model/onnx"
     onnx_model_path: str = "model/onnx/zeroshot.onnx"
     tokenizer_path: str = "model/onnx/tokenizer.json"
